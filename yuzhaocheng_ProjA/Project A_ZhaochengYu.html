@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ProjectA_zhaocheng_Yu</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="650" height="650">
+    Please use a browser that supports "canvas"
+    </canvas>
+<br>(I was intended to draw a flower ~! Now it becomes something else, sort of) 
+    <p>
+      <button style="color:blue;font-size:160%;font-family:courier"type="button" onclick="moreCCW()">Speed_up</button>
+      <button style="color:red;font-size:160%;font-family:courier"type="button" onclick="lessCCW()">Speed_down</button>
+      <button style="color:green;font-size:160%;font-family:courier"type="button" onclick="runStop()">Runstop</button>
+    </p>
+    <p> 
+      <div id = 'Result'>  Press F1 for hint </div>
+    </p>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-mod.js"></script>
+    <script src="yuzhaocheng_ProjA.js"></script>
+  </body>
+</html>
